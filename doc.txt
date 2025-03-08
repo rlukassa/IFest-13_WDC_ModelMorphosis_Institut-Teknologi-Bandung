@@ -1,0 +1,143 @@
+// Ngoding Mastery (React Website)
+
+=====================================================
+                    DOCUMENT
+link : https://docs.google.com/document/d/1N4Vq4WDdDyG77G5VytGRB7mEgHPq4W190k3iGxCeNLQ/edit?tab=t.0
+=====================================================
+
+TechStack : 
+1. HTML + CSS
+2. JavaScript
+3. Swiper -> untuk image geser agar lebih responsif (productCard)
+4. Accordion -> untuk bisa menampilkan panel buka tutup (FaQ dan Blog)
+5. Vite (build tools JavaScript)
+6. Animate: OnScroll , Style
+7. BootStrap 
+8. React-Router
+
+# Terkait Overview
+- Laptop 
+- Mobile 
+
+# Persiapan awal 
+# Download Assets 
+
+folder pages, untuk menyimpan berbagai page, homepage, dsb
+// atur folder, 
+// install router dom (react router ) 
+--- npm install react router-dom
+-- setelah selesai, cek di package.json, react-router-dom
+
+cara pakai : 
+ke App.jsx 
+
+browser router (main.jsx) => import {BrowerRouter} from "react-router-dom"
+. ke main.jsx, 3 component : BrowserRouter
+. ke App.jsx , Routes, Route
+
+terkait path dan Component (memanggil dari file yang dibuat, sehingga harus import dulu seperti HomePage)
+
+// PERHATIAN = BANYAK UPDATE SEHINGGA AGAK SEDIKIT CHATGPT BUAT NGIKUTIN 
+
+// Begitulah react-router, 
+// BrowserRouter, Routes, Route (harus urut),.... Route didalam Routes yang didalamnya ada BrowserRouter
+
+
+// React Bootstrap 
+... npm install react-bootstrap bootstrap 
+.. copas import CSS ke main.jsx
+.. ke component, navbar, 
+..
+
+.. Tambahkan button 
+button, join with us
+.. tinggal menambahkan dibawah tag Nav 
+
+.. Bootstrap ,emang itu itu aja terkait stylenya
+ingin custom ? menambahkan style dengan css 
+tailwind hanya 'pembungkus css yang mirip dengan bootstrap' 
+
+..hilangkan background Navbar, navbarcomponent
+.. tambahkan 1 fitur, ketika klik navbar, maka akan berwarna lain... react router web 
+.. tambahkan warna 
+
+.navbar .nav-link .active { 
+    background-color: var(--secondary-color);
+    color : var(--primary-color);
+}
+
+// ketika di halaman home, maka home akan active, yang lainnya jadi pending
+// begitu juga yang lain
+
+..ketika dihover maka akan berubah warna 
+.navbar .nav-link .active:hover {
+    color: pink;
+}
+
+.. tambahkan end (react router)
+// supaya ketika kita klik 'kelas', home tidak aktif
+
+.. tambahan style, 
+.. Buat elemen Navbarnya ditengah , className='text-center' 
+
+useState dan useEffect...
+fungsi... cek di navbar
+
+berikan transition biar ada animasinya 
+
+.. Header pada page Home 
+.. butuh react bootstrap
+
+agar sejajar , d-flex align-items-center
+
+style pada button .. 
+
+... SECTION KELAS ,,,
+
+... row ke 2
+import { kelasTerbaru } from ../data/index;
+.. import gambar dengan looping 
+
+.. Bintang
+dengan CDN (link)
+
+.. style Bintang dan gambar 
+useNavigate from react-router-dom
+
+/// TESTIMONIAL
+SWIPER install (npm install swiper)
+import Swiper 
+pilih demos, pilih tampilan (responsif breakpoint),,, react 
+
+slidesPerVeiw dan spaceBetween
+style... class BootStrap
+
+section faq dengan Accordion.......
+// react-bootstrap  ..copas
+masukkan ke ke homepage
+buat suatu container, row col (import dulu).. agar dapat terkelompokkan
+
+
+..FOOTER
+
+.. elemen kolom 2 dan ketiga
+
+... Kelas
+
+.. TESTIMONIAL
+
+.. FaQ 
+
+.. Syarat 
+
+.. Lihat kelas ke kelas (Route)
+--useNavigate
+--scrolltoTop (stackOverflow)
+... bikin file tersendiri
+
+Animasi (Animate.style and onscroll)
+Animate style web,
+Animate onScroll (Web AOS)
+
+----------------
+
