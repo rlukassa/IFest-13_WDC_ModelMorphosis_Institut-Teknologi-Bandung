@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'; // Gunakan createRoot dari react-dom/client
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import App from './App.jsx';
 
 import ScrolltoTop from './components/ScrolltoTop.jsx';
@@ -18,9 +18,9 @@ const root = createRoot(document.getElementById('root')); // Buat root dengan cr
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <ScrolltoTop />
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
