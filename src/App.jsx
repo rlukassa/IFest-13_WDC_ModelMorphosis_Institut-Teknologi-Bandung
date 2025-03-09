@@ -15,14 +15,12 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        // ketika kita mengakses Route halaman utama, maka akan diarahkan ke
-        HomePage
+        // ketika kita mengakses Route halaman utama, maka akan diarahkan ke HomePage
         <Route path="/kelas" element={<KelasPage />} />
         <Route path="/EduPage" element={<EduPage />} />
         <Route path="/syarat-ketentuan" element={<SyaratKetenPage />} />
         <Route path="/faq" element={<FaQPage />} />
       </Routes>
-
       <FooterComponent />
     </div>
   );
