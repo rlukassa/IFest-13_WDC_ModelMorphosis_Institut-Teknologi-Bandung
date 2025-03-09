@@ -5,7 +5,6 @@ import FooterComponent from "./components/FooterComponent";
 
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
-import Testimonial from "./pages/EduPage";
 import SyaratKetenPage from "./pages/SyaratKetenPage";
 import EduPage from "./pages/EduPage";
 import FaQPage from "./pages/FaQPage";
