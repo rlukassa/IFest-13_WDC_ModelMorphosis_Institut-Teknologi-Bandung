@@ -56,29 +56,25 @@ const HomePage = () => {
                 className="mb-4 animate__animated animate__fadeInUp animate__delay-0.5s"
                 style={{ color: "rgb(218, 203, 119)" }}
               >
-                Temukan <br /> <span>Bakat dan Kreatifmu</span> <br /> bersama
+                Yuk ! <br /> <span>Jelajahi, Berkreasi, dan Bertransformasi</span> <br /> bersama
                 kami, ModelMorphosis !
               </h1>
               <p
                 className="mb-4 animate__animated animate__fadeInUp animate__delay-0.8s"
                 style={{ color: "rgb(218, 203, 119)" }}
               >
-                ModelMorphosis adalah platform digital yang bertujuan mendukung
-                fashion berkelanjutan melalui sistem tukar-menukar dan jual-beli
-                pakaian preloved, serta tantangan pengurangan pembelian pakaian
-                baru. Website ini dibuat dengan konsep statis tanpa backend,
-                menggunakan teknologi berbasis client-side.
+                ModelMorphosis adalah platform fashion berkelanjutan tempat anda dapat menukar, menjual, dan mengeksplorasi gaya tanpa merusak lingkungan. Saatnya bertransformasi dengan fashion yang lebih bijak, lebih kreatif, lebih hemat, dan lebih peduli pada bumi !
               </p>
               <button
                 className="btn btn-success btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s"
                 onClick={() => navigate("/kelas")}
               >
                 {" "}
-                Lihat Kelas{" "}
+                Lihat Galeri{" "}
               </button>
-              <button className="btn btn-outline-success btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s">
+              <button className="btn btn-outline-success btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => navigate("/EduPage")}>
                 {" "}
-                Lihat promo{" "}
+                Lihat Edukasi{" "}
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
@@ -151,7 +147,7 @@ const HomePage = () => {
                   />
                 </Form.Group>
                 <Button variant="primary" type="submit" className="p-3">
-                  Daftarkan Barang
+                  Daftarkan Pakaian
                 </Button>
               </Form>
             </Col>
@@ -160,6 +156,9 @@ const HomePage = () => {
           <Row>
             <Col>
               <h2 className="text-center fw-bold p-4"> Galeri Pakaian </h2>
+              <div className="text-center my-4">
+                <h4 className="fw-bold">Poin saya : 0🪙</h4>
+              </div>
             </Col>
           </Row>
 
@@ -186,7 +185,7 @@ const HomePage = () => {
                   <p>Kondisi: {kelas.condition}</p>
                   <p>{kelas.description}</p>
                   <p className="text-primary fw-bold">Harga: {kelas.price}</p>
-                  <p>Poin Tukar: {kelas.points}</p>
+                  <p>Poin Tukar: {kelas.points}🪙</p>
                   <Button variant="danger" className="rounded-1">
                     Tukar
                   </Button>

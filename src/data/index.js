@@ -171,31 +171,31 @@ export const kelasTerbaru = [
     id: 1,
     image: KelasImage1,
     title: "Gaun Etnik Ramah Lingkungan – Fashion Berkelanjutan dengan Sentuhan Tradisional",
-    price: "Rp250000",
+    price: "Rp250.000,-",
     condition: "Preloved, masih dalam kondisi sangat baik",
     description: "Gaun etnik bernuansa earthy dengan desain drapery unik, menonjolkan kesan elegan dan berkelanjutan. Terbuat dari kain ramah lingkungan dengan detail aksesori handmade yang menambah nilai estetika. Cocok untuk acara formal maupun kasual. Nyaman dipakai dan tetap stylish tanpa merusak lingkungan!",
     points: 250,
-    delay: 1300
+    delay: 800
   },
   {
     id: 2,
     image: KelasImage2,
     title: "Gaun Artistik Ramah Lingkungan – Pesan untuk Bumi yang Lebih Baik",
-  price: "Rp275000",
+  price: "Rp275.000,-",
   condition: "Preloved, masih dalam kondisi sangat baik",
   description: "Gaun unik berbahan ramah lingkungan dengan desain bertingkat yang dihiasi ilustrasi dan pesan-pesan inspiratif tentang keberlanjutan. Setiap detailnya mencerminkan kepedulian terhadap bumi dan mode yang lebih bertanggung jawab. Nyaman dipakai dan cocok untuk acara bertema eco-friendly atau fashion statement yang berani!",
   points: 275,
-  delay: 1600
+  delay: 1100
   },
   {
     id: 3,
     image: KelasImage3,
     title: "Outer Dress Minimalis – Katun Organik & Linen Daur Ulang",
-    price: "Rp300000",
+    price: "Rp300.000,-",
     condition: "Preloved, masih dalam kondisi sangat baik",
     description: "Outer dress modern dengan desain minimalis, dibuat dari kombinasi katun organik dan linen daur ulang yang lembut dan breathable. Warna earthy dengan aksen seni abstrak menambah kesan elegan dan effortless. Cocok untuk tampilan kasual hingga semi-formal dengan konsep fashion berkelanjutan.",
     points: 300,
-    delay: 1900
+    delay: 1300
   },
   {
     id: 4,
@@ -205,93 +205,27 @@ export const kelasTerbaru = [
   condition: "Preloved, masih dalam kondisi sangat baik",
   description: "Gaun unik dengan desain avant-garde yang terbuat dari bahan daur ulang dan elemen alami. Detail rumit serta permainan tekstur memberikan tampilan glamor dan artistik yang tetap mengedepankan prinsip fashion berkelanjutan. Cocok untuk fashion show, event bertema eco-friendly, atau koleksi pribadi bagi pecinta sustainable fashion.",
   points: 350,
-    delay: 2000
+    delay: 1600
   },
   {
     id: 5,
     image: KelasImage5,
     title: "Gaun Artistik Handmade – Anyaman Benang Daur Ulang",
-  price: "Rp320000",
+  price: "Rp320.000,-",
   condition: "Preloved, masih dalam kondisi sangat baik",
   description: "Gaun eksklusif dengan desain unik berbahan dasar anyaman benang daur ulang yang dirajut dengan teknik handmade. Perpaduan warna-warni yang artistik menciptakan tampilan elegan, edgy, dan penuh karakter. Cocok untuk acara spesial, fashion show, atau koleksi pribadi bagi pencinta sustainable fashion.",
   points: 320,
-    delay: 2300,
+    delay: 1800
   },
   {
     id: 6,
     image: KelasImage6,
     title: "Dress Layered Asimetris – Katun Organik & Tenun Tradisional",
-    price: "Rp280000",
+    price: "Rp280.000,-",
     condition: "Preloved, masih dalam kondisi sangat baik",
     description: "Dress modern dengan desain layered asimetris, menggabungkan katun organik yang nyaman dengan aksen tenun tradisional pada bagian korset. Siluet unik dan kombinasi tekstur memberikan tampilan edgy sekaligus elegan. Cocok untuk tampilan kasual maupun semi-formal dengan sentuhan sustainable fashion.",
     points: 280,
-    delay: 2600
-  },
-];
-
-export const testimonial = [
-  {
-    id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 1",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 2",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 3",
-    skill: "Web Developer",
-  },
-  {
-    id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
-  },
-  {
-    id: 7,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 7",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 8,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 8",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 9,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 9",
-    skill: "Web Developer",
+    delay: 2000
   },
 ];
 
@@ -386,10 +320,9 @@ export const faq = [
   {
     id: 8,
     eventKey: 7,
-    title: "Apakah saya bisa menghapus akun saya?",
-    desc: "Karena ModelMorphosis berbasis client-side tanpa backend, akun Anda tidak menyimpan data pribadi yang dapat dihapus. Namun, Anda bisa menghapus semua informasi yang telah diunggah sendiri.",
+    title: "Apakah ModelMorphosis hanya untuk menjual dan menukar pakaian?",
+    desc: "Tidak! ModelMorphosis bukan hanya platform jual-beli dan tukar pakaian, tetapi juga tempat untuk belajar dan berkreasi dalam fashion berkelanjutan. Kamu bisa menemukan tips styling ramah lingkungan, tantangan pengurangan pembelian pakaian baru, serta inspirasi mix & match pakaian yang sudah kamu miliki. Jadi, selain berbelanja secara bijak, kamu juga bisa ikut berkontribusi dalam gerakan fashion yang lebih bertanggung jawab! 🌱✨",
   },
 ];
-
 
 export { Video1, Video2, Video3, Vid1, Vid2, Vid3, Vid4, Vid5 };

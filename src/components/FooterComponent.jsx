@@ -13,11 +13,13 @@ const FooterComponent = () => {
           <h3 className="fw-bold">
             {/* JuduL */} ModelMorphosis ♻️
           </h3>
-          <p className="desc text-justify-inter-word"> ModelMorphosis adalah platform digital yang bertujuan mendukung fashion berkelanjutan melalui sistem tukar-menukar dan jual-beli pakaian preloved, serta tantangan pengurangan pembelian pakaian baru. Website ini dibuat dengan konsep statis tanpa backend, menggunakan teknologi berbasis client-side.</p>
+          <p className="desc text-justify-inter-word"> 
+          ModelMorphosis adalah platform fashion berkelanjutan tempat anda dapat menukar, menjual, dan mengeksplorasi gaya tanpa merusak lingkungan. Saatnya bertransformasi dengan fashion yang lebih bijak, lebih kreatif, lebih hemat, dan lebih peduli pada bumi !
+          </p>
           <div className="no mb-1 mt-4"> 
             <Link className="text-decoration-none">
             <i className= "fa-brands fa-whatsapp"></i>
-            <p className="m-0"> +62 081-123-789</p>
+            <p className="m-0"> +62 81-123-789-231</p>
             </Link>
           </div>
           <div className="mail">
@@ -38,7 +40,7 @@ const FooterComponent = () => {
           <Col lg="4" className="mt-lg-0 mt-5"> 
           <h5 className="fw-bold"> Cari info menarik lainnya ! </h5>
           <div className="subscribe">
-            <input type="text" placeholder="Subscribe.." />
+            <input type="text" placeholder="Ketik disini..." />
             <button className="btn btn-danger rounded-end rounded-0"> Submit </button>
           </div>
           <div className="social mt-3">

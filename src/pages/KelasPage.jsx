@@ -11,7 +11,7 @@ const KelasPage = () => {
     <div className="kelas-page">
       <div className="tukar-jual-beli w-100 min-vh-100">
         <Container>
-          <Row className="animate__animated animate__fadeInUp animate__delay-0.5s">
+          <Row>
             <Col>
               <h1 className="text-center fw-bold">
                 {" "}
@@ -25,7 +25,7 @@ const KelasPage = () => {
           </Row>
 
           <Row>
-            <Col>
+            <Col className="animate__animated animate__fadeInUp animate__delay-0.5s">
               <h2 className="text-center fw-bold mt-4 mb-0">
                 {" "}
                 Pendaftaran Pakaian{" "}
@@ -68,7 +68,7 @@ const KelasPage = () => {
                   />
                 </Form.Group>
                 <Button variant="primary" type="submit" className="p-3">
-                  Daftarkan Barang
+                  Daftarkan Pakaian
                 </Button>
               </Form>
             </Col>
@@ -77,6 +77,9 @@ const KelasPage = () => {
           <Row>
             <Col>
               <h2 className="text-center fw-bold p-4"> Galeri Pakaian </h2>
+              <div className="text-center my-4">
+                <h4 className="fw-bold">Poin saya : 0🪙</h4>
+              </div>
             </Col>
           </Row>
 
@@ -103,7 +106,7 @@ const KelasPage = () => {
                   <p>Kondisi: {kelas.condition}</p>
                   <p>{kelas.description}</p>
                   <p className="text-primary fw-bold">Harga: {kelas.price}</p>
-                  <p>Poin Tukar: {kelas.points}</p>
+                  <p>Poin Tukar: {kelas.points}🪙</p>
                   <Button variant="danger" className="rounded-1">
                     Tukar
                   </Button>

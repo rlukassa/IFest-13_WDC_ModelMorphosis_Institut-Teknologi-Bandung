@@ -1,5 +1,3 @@
-// Ngoding Mastery (React Website)
-
 =====================================================
                     DOCUMENT
 link : https://docs.google.com/document/d/1N4Vq4WDdDyG77G5VytGRB7mEgHPq4W190k3iGxCeNLQ/edit?tab=t.0
@@ -140,4 +138,19 @@ Animate style web,
 Animate onScroll (Web AOS)
 
 ----------------
+
+LAST TASK ! 
+
+1. delay waktu galeri ---
+2. Tampilan Homepage (Temukan bakat) , baiknya diubah sama yang client side 
+3. Tambahan poin di galeri poin saya
+4. Kelas -> Galeri Model / Tukar Jual Beli 
+5. ModelMorphosis () -> 404
+6. Lihat Kelas & Lihat Promo 
+7. FaQ dilogiskan dan tambahkan agar user dapat mengisi sendiri
+8. Dapatkan Barang -> Submit
+9. Jelaskan apa itu ModelMorphosis 
+10. Kuis dan Sumber Terbuka
+11. fitur matikan suara. 
+12. fitur theme light dark
 
