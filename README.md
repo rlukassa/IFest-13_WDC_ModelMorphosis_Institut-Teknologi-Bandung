@@ -104,4 +104,4 @@ Hasil build akan tersimpan di folder **dist/** dan bisa langsung di-deploy ke ho
 - Gunakan `npm run dev` untuk menjalankan proyek di lokal.  
 - Jika ada error, cek bagian **Troubleshooting** atau hubungi saya.  
 
-🎉 **Selamat mencoba dan semoga sukses di lomba! 🚀**  
+🎉 **Selamat mencoba dan semoga sukses ! 🚀**  
