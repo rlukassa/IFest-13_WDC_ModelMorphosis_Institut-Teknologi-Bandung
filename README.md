@@ -73,7 +73,7 @@ modelmorphosis/
 
 ---
 
-## 🔧 **Build untuk Produksi**  
+## **Build untuk Produksi**  
 Jika ingin membuat versi produksi, jalankan:  
 ```sh
 npm run build
